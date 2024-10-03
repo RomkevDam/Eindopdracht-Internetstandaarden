@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    border:solid #707070;
+    background-color: #000928;
+    text-align: center;
+}
+nav {
+    margin-bottom: 1em;
+}
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    margin-left: 3em; 
+    margin-right: 1em;
+}
+body {
+    background-color: #0B0058;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main {
+    display: grid;
+    place-items: center;
+    flex-grow: 1;
+}
+<----- bronvermelding-----> https://www.youtube.com/watch?v=pyPfpXaH2kY&t=162s&ab_channel=TheCodeCreative
+main::before {
+    background-image: url('images-4149f7/images/podcast_foto.jpg');
+    position: absolute;
+    background-size: cover;
+    content:'';
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+    opacity: 0.3;
+}
+.logo img {
+    width: 250px;
+    position: absolute;
+    top: 40px;
+}
+.h1-index h1 {
+margin-top: 120px;
+    text-align:center ;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    -webkit-text-stroke: 1.5px black;
+}
+h2 {
+    margin-top: 20px;
+    text-align:center ;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    -webkit-text-stroke: 1px black;
+}
+p {
+    margin-top: 40px;
+    margin-top: px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    display: block;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+span {
+    color: aqua;
+}
+button {
+    background-color: #0B0058;
+    color: white;
+    font-size: 1,25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    -webkit-text-stroke: 0.01rem black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.5rem 2.5rem;
+    margin-top: 7rem;
+}
+.container {
+    height: 200px;
+    position: relative;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-bottom: 1rem;
+}
+.center a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold; 
+    -webkit-text-stroke: 0.5px black;  
+}
+.over-ons-h1 {
+    margin-top: 120px;
+    text-align:center ;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    -webkit-text-stroke: 1.5px black;
+}
+.tekst-over-ons {
+    margin-top: 40px;
+    margin-top: px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    display: block;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.namen h1 {
+    margin-left: 18.5em;
+    margin-top: 140px;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;   
+    -webkit-text-stroke: 1px black;
+}
+.over-ons img {
+    width: 250px;
+    margin-left: 30em;
+}
+
+.aflevering {
+    display: flex;
+    align-items: center; 
+    font-size: 1rem;
+    background-color: #140095;
+    height: 10em;
+    margin-top: 9em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border-radius: 1em;
+  }
+  
+  .aflevering img {
+    width: 15em; 
+    margin-left: 2em;
+    margin-right: -10rem;
+  }
+  
+  .aflevering p {
+      margin-bottom: 4em;
+      font-size: 1rem;
+      color: white;
+      -webkit-text-stroke: 0.5px black;  
+      position: sticky;
+      margin-left: 10em;
+      margin-right: 8em;
+      display: flex;
+      align-items: center;
+      padding-top: 1.8em;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #000928;
+    height: 10vh;
+  }
+  .footer img {
+    width: 6rem;
+    text-align: center;
+  }
